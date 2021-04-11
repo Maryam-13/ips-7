@@ -1,0 +1,113 @@
+.header {
+    margin-top: 60px;
+    margin-left: 88px;
+    vertical-align: middle;
+}
+
+.logo {
+    font-family: 'Crete Round';
+    font-size: 34px;
+    color: #060C31;
+    font-style: normal;
+    margin-right: 586px;
+    font-weight: normal;
+    line-height: 43px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.nav_menu {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.menu_link {
+    display: inline-block;
+    margin-right: 40px;
+    font-family: Lato;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 28px;
+    color: #060C31;
+    vertical-align: middle;
+}
+
+.main {
+    margin-left: 200px;
+    margin-top: 67px;
+}
+
+.main_content {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 100px;
+
+}
+
+.main_image {
+    vertical-align: middle;
+    display: inline-block;
+    margin-left: -9px;
+}
+
+.title {
+    width: 449px;
+    height: 192px;
+    margin-bottom: 42px;
+    margin-top: 0px;
+
+    font-family: 'Crete Round';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 58px;
+    color: #060C31;
+    line-height: 64px;
+}
+
+
+.text {
+    font-family: 'Lato';
+    font-size: 15px;
+    color: #060C31;
+    letter-spacing: 0.75px;
+    line-height: 28px;
+    font-style: normal;
+    font-weight: normal;
+    width: 436px;
+    height: 84px;
+    margin-bottom: 76px;
+}
+
+.button {
+    border-radius: 50px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.button.button_blue {
+    background: #233FE2;
+    border: none;
+    color: #FFFFFF;
+    margin-right: 20px;
+    padding: 16px 36px 16px 36px;
+}
+
+.button.button_light {
+    border: 1px solid #FFB0B1;
+    padding: 16px 36px 16px 36px;
+}
+
+.footer {
+    margin-left: 548px;
+    margin-top: 104px;
+}
+
+.footer_logo {
+    vertical-align: middle;
+    margin-right: 100px;
+}
+
+
