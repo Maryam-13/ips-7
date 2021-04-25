@@ -1,16 +1,13 @@
 .header {
     margin-top: 60px;
     margin-left: 88px;
+    margin-right: 80px;
     vertical-align: middle;
 }
 
 .logo {
-    font-family: 'Crete Round';
-    font-size: 34px;
+    font: 34px 'Crete Round';
     color: #060C31;
-    font-style: normal;
-    margin-right: 586px;
-    font-weight: normal;
     line-height: 43px;
     vertical-align: middle;
     display: inline-block;
@@ -19,30 +16,29 @@
 .nav_menu {
     display: inline-block;
     vertical-align: middle;
+    float: right;
 }
 
 .menu_link {
     display: inline-block;
     margin-right: 40px;
-    font-family: Lato;
-    font-style: normal;
+    vertical-align: middle;
+    font: 13px 'Lato';
     font-weight: bold;
-    font-size: 13px;
     line-height: 28px;
     color: #060C31;
-    vertical-align: middle;
 }
 
 .main {
-    margin-left: 200px;
     margin-top: 67px;
+    text-align: center;
 }
 
 .main_content {
     display: inline-block;
     vertical-align: top;
     margin-top: 100px;
-
+    text-align: left;
 }
 
 .main_image {
@@ -55,25 +51,18 @@
     width: 449px;
     height: 192px;
     margin-bottom: 42px;
-    margin-top: 0px;
-
-    font-family: 'Crete Round';
-    font-style: normal;
-    font-weight: normal;
-    font-size: 58px;
+    margin-top: 0;
+    font: 58px 'Crete Round';
     color: #060C31;
     line-height: 64px;
 }
 
 
 .text {
-    font-family: 'Lato';
-    font-size: 15px;
+    font: 15px 'Lato';
     color: #060C31;
     letter-spacing: 0.75px;
     line-height: 28px;
-    font-style: normal;
-    font-weight: normal;
     width: 436px;
     height: 84px;
     margin-bottom: 76px;
@@ -81,10 +70,8 @@
 
 .button {
     border-radius: 50px;
-    font-family: 'Lato';
-    font-style: normal;
+    font: 15px 'Lato';
     font-weight: bold;
-    font-size: 15px;
 }
 
 .button.button_blue {
@@ -101,8 +88,8 @@
 }
 
 .footer {
-    margin-left: 548px;
     margin-top: 104px;
+    float: right;
 }
 
 .footer_logo {
