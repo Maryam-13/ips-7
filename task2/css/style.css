@@ -6,9 +6,8 @@
 }
 
 .logo {
-    font: 34px 'Crete Round';
+    font:  43px/34px 'Crete Round';
     color: #060C31;
-    line-height: 43px;
     vertical-align: middle;
     display: inline-block;
 }
@@ -23,9 +22,7 @@
     display: inline-block;
     margin-right: 40px;
     vertical-align: middle;
-    font: 13px 'Lato';
-    font-weight: bold;
-    line-height: 28px;
+    font: bold 13px/28px 'Lato';
     color: #060C31;
 }
 
@@ -52,17 +49,15 @@
     height: 192px;
     margin-bottom: 42px;
     margin-top: 0;
-    font: 58px 'Crete Round';
+    font: 58px/64px 'Crete Round';
     color: #060C31;
-    line-height: 64px;
 }
 
 
 .text {
-    font: 15px 'Lato';
+    font: 15px/28px 'Lato';
     color: #060C31;
     letter-spacing: 0.75px;
-    line-height: 28px;
     width: 436px;
     height: 84px;
     margin-bottom: 76px;
@@ -70,8 +65,7 @@
 
 .button {
     border-radius: 50px;
-    font: 15px 'Lato';
-    font-weight: bold;
+    font: bold 15px 'Lato';
 }
 
 .button.button_blue {
