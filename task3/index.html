@@ -127,8 +127,8 @@
 <section class="forms">
     <h2 class="inversion">Единственное, <br> что нужно <span class="pink">сделать</span>
     </h2>
-    <div class="data">
-        <form class="form" action="" method="get">
+    <form class="form" action="" method="get">
+        <div class="data">
             <input class="you-name" type="text" name="name" placeholder="Ваше имя">
             <input class="you-name" type="text" name="mail" placeholder="Email">
             <select class="you-name" name="activity">
@@ -136,15 +136,16 @@
                 <option value="designer">Дизайнер</option>
                 <option value="marketer">Маркетолог</option>
             </select>
-            <div class="button">
-                <a href="" class="button down"> Записаться на курс </a>
-            </div>
-        </form>
-        <form class="chek" action="" method="get">
-            <input type="checkbox" class="chek" name="agreement" cheked="cheked">
-        </form>
-        <span class="agreement">Согласен получать информационные материалы о старте курса</span>
-    </div>
+            <button type="submit" class="button down">
+                 Записаться на курс
+            </button>
+        </div>
+        <div class="data">
+            <input type="checkbox" class="check-mark" id="chek" name="agreement" value="yes">
+            <label class="agreement" for="chek">Согласен получать информационные материалы о старте курса
+            </label>
+        </div>
+    </form>
 </section>
 <div class="donald">
     <img src="images/donald.png" alt="Портрет Дональда">
