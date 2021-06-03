@@ -5,6 +5,14 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    transition-property: opacity;
+    opacity: 0;
+}
+
+.loaded .header{
+    transition-timing-function: ease;
+    opacity: 1;
+    transition-duration: 0.8s;
 }
 
 .nav_menu {
@@ -61,7 +69,8 @@
     transition-timing-function: ease;
     opacity: 1;
     transform: translateY(0);
-    transition-duration: 0.2s;
+    transition-delay: 0.5s;
+    transition-duration: 0.5s;
 }
 
 .main_content {
@@ -116,7 +125,8 @@
 .loaded .clock {
     transition-timing-function: ease;
     opacity: 1;
-    transition-duration: 1s;
+    transition-delay: 0.5s;
+    transition-duration: 1.2s;
 }
 
 .notebook {
@@ -129,7 +139,8 @@
 .loaded .notebook {
     transition-timing-function: ease;
     opacity: 1;
-    transition-duration: 1.8s;
+    transition-delay: 0.5s;
+    transition-duration: 2s;
 }
 
 .target {
@@ -142,7 +153,8 @@
 .loaded .target {
     transition-timing-function: ease;
     opacity: 1;
-    transition-duration: 2.6s;
+    transition-delay: 0.5s;
+    transition-duration: 2.8s;
 }
 
 .no-time {
@@ -167,16 +179,33 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+.left{
     transition-property: opacity, transform;
     opacity: 0;
     transform: translateX(-50px);
 }
 
-.questions.loaded .question-one {
+.questions.loaded .left {
     transition-timing-function: ease;
     opacity: 1;
     transform: translateX(0);
     transition-duration: 1s;
+}
+
+.left-bottom{
+    transition-property: opacity, transform;
+    opacity: 0;
+    transform: translateX(-50px);
+}
+
+.questions.loaded .left-bottom {
+    transition-timing-function: ease;
+    opacity: 1;
+    transform: translateX(0);
+    transition-duration: 1s;
+    transition-delay: 0.5s;
 }
 
 .question-tow {
@@ -184,17 +213,33 @@
     align-items: center;
     justify-content: space-between;
     margin-top: 81px;
+}
+
+.right{
     transition-property: opacity, transform;
     opacity: 0;
     transform: translateX(50px);
 }
 
-.questions.loaded .question-tow {
+.questions.loaded .right {
     transition-timing-function: ease;
     opacity: 1;
     transform: translateX(0);
     transition-duration: 1s;
-    transition-delay: 1s;
+}
+
+.right-bottom{
+    transition-property: opacity, transform;
+    opacity: 0;
+    transform: translateX(50px);
+}
+
+.questions.loaded .right-bottom {
+    transition-timing-function: ease;
+    opacity: 1;
+    transform: translateX(0);
+    transition-duration: 1s;
+    transition-delay: 0.5s;
 }
 
 .able {
