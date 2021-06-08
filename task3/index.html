@@ -4,6 +4,7 @@
     <title>Don't do it</title>
     <meta charset="utf-8">
     <link href="css/style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400&family=Roboto+Condensed&display=swap"
           rel="stylesheet">
@@ -12,7 +13,7 @@
 <body>
 <header class="header">
     <span class="logo">
-        <img src="images/text.png" alt="Логотип">
+        <img src="images/text.png" class="logo" alt="Логотип">
     </span>
     <div class="nav_menu">
         <a href="" class="menu_link">Что будет на курсе?</a>
@@ -22,6 +23,7 @@
             <a href="" class="button top">Записаться на курс</a>
         </div>
     </div>
+    <img class="menu" src="images/menu.png">
 </header>
 <div class="main">
     <div class="main_content">
@@ -35,9 +37,7 @@
             <a href="" class="button down"> Записаться на курс </a>
         </div>
     </div>
-    <div class="main_image">
-        <img src="images/done.png" Alt="Не делай">
-    </div>
+    <img class="main-image" src="images/done.png" alt="Не делай">
 </div>
 <section class="methods">
     <div class="clock">
@@ -58,7 +58,7 @@
         <img class="left" src="images/finances.png" alt="Дела">
         <div class="content right">
             <h2 class="no-time">Ты не успеешь</h2>
-            <p class="text"> Всех творческих людей объединяет одна проблема - отсутствие времени на реализацию идей. Как
+            <p class="text words"> Всех творческих людей объединяет одна проблема - отсутствие времени на реализацию идей. Как
                 прибавить суткам часы, рассмотрим в нашем курсе.
             </p>
         </div>
@@ -66,7 +66,7 @@
     <div class="question-tow">
         <div class="content left-bottom">
             <h2 class="no-time">Опять дедлайн</h2>
-            <p class="text">В мире, где столько всего интересного, когда же успевать жить?</p>
+            <p class="text words">В мире, где столько всего интересного, когда же успевать жить?</p>
         </div>
         <img class="right-bottom" src="images/mind_blowing.png" alt="Истерика">
     </div>
@@ -137,7 +137,7 @@
                 <option value="marketer">Маркетолог</option>
             </select>
             <button type="submit" class="button down">
-                 Записаться на курс
+                Записаться на курс
             </button>
         </div>
         <div class="data">
@@ -146,6 +146,9 @@
             </label>
         </div>
     </form>
+    <button type="submit" class="button down mobile">
+        Записаться на курс
+    </button>
 </section>
 <div class="donald">
     <img src="images/donald.png" alt="Портрет Дональда">
