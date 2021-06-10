@@ -269,6 +269,7 @@
 .opportunities {
     display: flex;
     justify-content: center;
+    margin-bottom: 173px;
 }
 
 .variants {
@@ -298,6 +299,40 @@
 
 .six {
     width: 286px;
+}
+
+.accordion {
+    width: 720px;
+    margin-right: auto;
+    margin-left: auto;
+    border-bottom: 2px solid #000000;
+}
+
+.caption {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.caption:after {
+    content: url("../images/plus.png");
+    float: right;
+}
+
+.caption.is-open:after {
+    content: url("../images/mark.png");
+    float: right;
+}
+
+.js {
+    margin-bottom: 20px;
+}
+
+.text.words.js {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-in-out;
 }
 
 .data {
@@ -611,14 +646,23 @@ h3 {
         margin-left: auto;
         margin-right: auto;
     }
-    .text.words{
+
+    .text.words {
         max-width: 350px;
     }
-    .left{
+
+    .left {
         max-width: 450px;
     }
-    .right-bottom{
+
+    .right-bottom {
         max-width: 450px;
+    }
+
+    .accordion {
+        width: 450px;
+        margin-right: auto;
+        margin-left: auto;
     }
 }
 
@@ -683,9 +727,7 @@ h3 {
     .inversion {
         font-size: 34px;
     }
-}
 
-@media screen and (max-width: 490px) {
     .button {
         max-width: 200px;
     }
@@ -752,6 +794,11 @@ h3 {
         max-width: 60px;
     }
 
+    .accordion {
+        max-width: 300px;
+        margin-right: auto;
+        margin-left: auto;
+    }
 }
 
 @media screen and (max-width: 330px) {
@@ -797,7 +844,8 @@ h3 {
     .no-time {
         text-align: center;
     }
-    .logo{
+
+    .logo {
         max-width: 180px
     }
 }
