@@ -32,6 +32,7 @@
 .menu {
     opacity: 0;
     position: absolute;
+    cursor: pointer;
 }
 
 .mobile {
@@ -461,6 +462,98 @@ h3 {
     margin-bottom: 9px;
 }
 
+#arrow {
+    transition: opacity .5s easy;
+    opacity: 0;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
+
+#arrow.visible {
+    opacity: 1;
+
+}
+
+#black.visible {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+}
+
+.mobile-menu{
+    height: 100%;
+}
+
+.mobile-menu-link {
+    max-width: 100%;
+    display: flex;
+    align-content: center;
+    font: 500 20px/20px Montserrat;
+    color: #ffffff;
+    text-decoration: none;
+    height: 50px;
+    margin-top: 3px;
+}
+
+#Pop-Up {
+    display: none;
+}
+
+#Pop-Up.visible {
+    display: block;
+    width: 640px;
+    height: 847px;
+    background: #FFFFFF;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    box-shadow: 0px 16px 48px rgba(60, 0, 61, 0.48);
+    border-radius: 12px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    justify-content: center;
+}
+
+.close {
+    float: right;
+    margin-top: 15px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.form.popup {
+    display: flex;
+    margin-top: 30px;
+}
+
+.data.popup {
+    display: inline-block;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.you-name.popup {
+    margin-right: 0;
+    margin-bottom: 20px;
+    width: 480px;
+}
+
+.agreement.popup {
+    color: black;
+    font-size: 16px;
+    line-height: 22px;
+}
+
+.button.down.popup {
+    width: 480px;
+}
+
 @media screen and (max-width: 1740px) {
     .main {
         max-width: 70%;
@@ -663,6 +756,23 @@ h3 {
         width: 450px;
         margin-right: auto;
         margin-left: auto;
+    }
+
+    .menu {
+        max-width: 70px;
+    }
+
+    #mobile-menu.animate {
+        opacity: 1;
+        display: flex;
+        position: absolute;
+        align-items: center;
+        flex-direction: column;
+        background: #EE58B6;
+        top: 100px;
+        left: 0;
+        right: 0;
+        max-width: 100%
     }
 }
 
