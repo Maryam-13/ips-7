@@ -16,9 +16,9 @@
         <img src="images/text.png" class="logo" alt="Логотип">
     </span>
     <div class="nav_menu">
-        <a href="" class="menu_link">Что будет на курсе?</a>
-        <a href="" class="menu_link">Вопросы</a>
-        <a href="" class="menu_link">Автор</a>
+        <a href="#curs" class="menu_link js-menu-item">Что будет на курсе? </a>
+        <a href="#problem" class="menu_link js-menu-item">Вопросы</a>
+        <a href="#avtor" class="menu_link js-menu-item">Автор</a>
         <div class="button">
             <a href="" class="button top">Записаться на курс</a>
         </div>
@@ -73,7 +73,7 @@
     </div>
 </section>
 <h2 class="able">На курсе ты<span class="pink"> сможешь</span></h2>
-<div class="opportunities">
+<div id="curs" class="opportunities">
     <div class="variants">
         <div class="variant">
             <div class="pict">
@@ -125,7 +125,7 @@
         </div>
     </div>
 </div>
-<section class="faq">
+<section id="problem" class="faq">
     <h2 class="able">Всё, что вы хотели <span class="pink">узнать</span>
     </h2>
     <div class="accordion">
@@ -181,13 +181,47 @@
         Записаться на курс
     </button>
 </section>
-<div class="donald">
+<div id="avtor" class="donald">
     <img src="images/donald.png" alt="Портрет Дональда">
     <h3>Дональд Рос</h3>
     <p class="text about">Типограф, творческий предприниматель и лектор Королевской академии искусств Нидерландов</p>
     <p class="text author">Создаю титры к фильмам, шрифты, сложные интерфейсы для смартфонов. Автор собственных
         креативных проектов, в том числе системы тайм-менеджмента и приложения для смартфонов ToDon’tList.</p>
 </div>
+<a href="" id="arrow"><img src="images/arrow.png"></a>
+<div id="black">
+
+</div>
+<div id="mobile-menu">
+    <a class="mobile-menu-link js-menu-item" href="#curs">Что будет на курсе? </a>
+    <a class="mobile-menu-link js-menu-item" href="#problem">Вопросы</a>
+    <a class="mobile-menu-link js-menu-item" href="#avtor">Автор</a>
+</div>
+<div id="Pop-Up">
+    <img class="close" src="images/close.svg" alt="Закрыть">
+    <img src="images/welcome.png">
+    <h3 class="popup">Записаться на курс</h3>
+    <form class="form popup" action="" method="get">
+        <div class="data popup">
+            <input class="you-name popup" type="text" name="name" placeholder="Ваше имя">
+            <input class="you-name popup" type="text" name="mail" placeholder="Email">
+            <select class="you-name popup" name="activity">
+                <option value="programmer">Программист</option>
+                <option value="designer">Дизайнер</option>
+                <option value="marketer">Маркетолог</option>
+            </select>
+        </div>
+        <div class="data popup">
+            <input type="checkbox" class="check-mark" id="chek" name="agreement" value="yes">
+            <label class="agreement popup" for="chek">Согласен получать информационные материалы о старте курса
+            </label>
+        </div>
+        <button type="submit" class="button down popup">
+            Записаться на курс
+        </button>
+    </form>
+</div>
+
 <script src="js/app.js"></script>
 </body>
 </html>
